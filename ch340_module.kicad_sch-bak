@@ -8,6 +8,7 @@
 		(title "CH340 Optoisolated module")
 		(date "2024-12-30")
 		(company "sergeyyarkov")
+		(comment 1 "LTV-817 enough for 9600 baud rate.")
 		(comment 2 "Use high speed optocoupler like 6N137A for higher transmission speed.")
 	)
 	(lib_symbols
@@ -3957,7 +3958,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "10K"
 			(at 142.494 69.85 0)
 			(effects
 				(font
@@ -4227,7 +4228,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "10K"
 			(at 107.95 74.9299 0)
 			(effects
 				(font

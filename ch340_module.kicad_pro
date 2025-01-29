@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|110862500|64062500|70bbae3c-472e-48c5-83da-9aab7434cd9c|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|95850000|65100000|c4b6e105-15cb-406c-b2f1-093868cacd5f|4197210e-08eb-4c19-aa2a-b5b531405044",
+        "silk_edge_clearance|95850000|65900000|c4b6e105-15cb-406c-b2f1-093868cacd5f|cebc4be0-c04f-42ec-a09f-75783e323478",
+        "silk_edge_clearance|98421750|60250000|c4b6e105-15cb-406c-b2f1-093868cacd5f|d42dc172-3dc2-4de4-98b5-b84df68f9e79",
+        "silk_edge_clearance|98421750|70750000|c4b6e105-15cb-406c-b2f1-093868cacd5f|b9bfdde5-a0f6-41ee-98da-9f40d8c802e2"
+      ],
       "meta": {
         "version": 2
       },
@@ -181,6 +187,7 @@
         0.0,
         0.25,
         0.3,
+        0.4,
         0.5,
         0.7,
         0.9,
@@ -485,11 +492,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "pcb/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "C:/Users/serzh/Desktop/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
